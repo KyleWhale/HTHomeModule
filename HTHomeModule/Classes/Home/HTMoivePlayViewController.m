@@ -15,7 +15,6 @@
 #import "HTTVSeasonView.h"
 #import "HTFileLoader.h"
 #import "HTFileManager.h"
-#import "AppDelegate.h"
 #import "HTAdvertBannerView.h"
 #import "HTMoviePlayViewModel.h"
 #import "HTTVDetailEpsModel.h"
@@ -743,7 +742,7 @@
     
     self.var_playViewModel.var_isLock = isLock;
     if (@available(iOS 16.0, *)) {
-        [APP_DELEGATE.window.rootViewController setNeedsUpdateOfSupportedInterfaceOrientations];
+        [[[[[UIApplication sharedApplication] delegate] window] rootViewController] setNeedsUpdateOfSupportedInterfaceOrientations];
     } else {
         // Fallback on earlier versions
     }

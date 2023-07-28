@@ -13,7 +13,6 @@
 #import "HTHomeNavgationBar.h"
 #import "HTPlayerHistoryView.h"
 #import "HTDBHistoryModel.h"
-#import "AppDelegate.h"
 #import "HTHomeViewModel.h"
 #import "HTHomeViewManager.h"
 #import "HTHomeBuriedManager.h"
