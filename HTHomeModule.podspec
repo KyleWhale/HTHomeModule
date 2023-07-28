@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HTHomeModule"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "test pod for HTHomeModule"
 
   # This description is used to generate tags and improve search results.
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
   # spec.public_header_files = "Classes/**/*.h"
 
   spec.prefix_header_file = 'HTHomeModule/PrefixHeader.pch'
-
+  spec.static_framework = true
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the

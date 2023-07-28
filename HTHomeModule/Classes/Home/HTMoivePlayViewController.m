@@ -917,7 +917,6 @@
     self.var_playViewModel.var_linkTime1 = [NSDate date];
     self.var_playViewModel.var_linkTime2 = nil;
     
-    @weakify(self);
     if (self.var_isTType) {
         NSString *var_userid = @"0";
         ZQAccountModel *result = [HTCommonConfiguration lgjeropj_shared].BLOCK_userBlock();
@@ -925,7 +924,7 @@
             var_userid = result.var_userid;
         }
         [[HTHttpRequest sharedManager] ht_post:[NSString stringWithFormat:@"%d", 202] andParameters:@{AsciiString(@"id"):(self.var_mId ?: @""),AsciiString(@"uid"):var_userid} andCompletion:^(HTResponseModel * _Nullable data, NSError * _Nullable error) {
-            if (error != nil) {
+            if (error == nil) {
                 if (data.status == 200) {
                     HTTVDetailModel *var_model = [HTTVDetailModel yy_modelWithJSON:data.data];
                     self.var_playViewModel.var_tvModel = var_model;

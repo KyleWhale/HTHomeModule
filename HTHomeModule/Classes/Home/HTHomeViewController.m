@@ -11,7 +11,6 @@
 #import "HTSearchViewController.h"
 #import "HTMoivePlayViewController.h"
 #import "HTHomeNavgationBar.h"
-#import "HTPlayerHistoryView.h"
 #import "HTDBHistoryModel.h"
 #import "HTHomeViewModel.h"
 #import "HTHomeViewManager.h"
@@ -26,7 +25,6 @@
 
 @property (nonatomic, strong) HTHomeNavgationBar            * navgationBar;
 @property (nonatomic, strong) UICollectionView              * collectionView;
-@property (nonatomic, strong) HTPlayerHistoryView           * historyView;
 @property (nonatomic, strong) HTHomeViewModel               * homeViewModel;
 
 @end
