@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0155CA402A73A0A800170661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA3F2A73A0A800170661 /* AppDelegate.m */; };
+		0155CA432A73A0A800170661 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA422A73A0A800170661 /* SceneDelegate.m */; };
+		0155CA462A73A0A800170661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA452A73A0A800170661 /* ViewController.m */; };
+		0155CA492A73A0A800170661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155CA472A73A0A800170661 /* Main.storyboard */; };
+		0155CA4B2A73A0AA00170661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0155CA4A2A73A0AA00170661 /* Assets.xcassets */; };
+		0155CA4E2A73A0AA00170661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155CA4C2A73A0AA00170661 /* LaunchScreen.storyboard */; };
+		0155CA512A73A0AA00170661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA502A73A0AA00170661 /* main.m */; };
+		0155CB342A73A0C300170661 /* HTFileLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA592A73A0C200170661 /* HTFileLoadOperation.m */; };
+		0155CB352A73A0C300170661 /* HTFileLoadReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA5B2A73A0C200170661 /* HTFileLoadReceipt.m */; };
+		0155CB362A73A0C300170661 /* HTFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA5D2A73A0C200170661 /* HTFileLoader.m */; };
+		0155CB372A73A0C300170661 /* HTGuideViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA602A73A0C200170661 /* HTGuideViewManager.m */; };
+		0155CB382A73A0C300170661 /* HTGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA612A73A0C200170661 /* HTGuideView.m */; };
+		0155CB392A73A0C300170661 /* HTHomePointManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA622A73A0C200170661 /* HTHomePointManager.m */; };
+		0155CB3A2A73A0C300170661 /* HTWaterMovieTvModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA672A73A0C200170661 /* HTWaterMovieTvModel.m */; };
+		0155CB3B2A73A0C300170661 /* HTHomeCompositeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA692A73A0C200170661 /* HTHomeCompositeModel.m */; };
+		0155CB3C2A73A0C300170661 /* HTSearchResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA6A2A73A0C200170661 /* HTSearchResultModel.m */; };
+		0155CB3D2A73A0C300170661 /* HTDBHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA6B2A73A0C200170661 /* HTDBHistoryModel.m */; };
+		0155CB3E2A73A0C300170661 /* HTSearchMovieTvModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA6C2A73A0C200170661 /* HTSearchMovieTvModel.m */; };
+		0155CB3F2A73A0C300170661 /* HTHomeFlexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA6D2A73A0C200170661 /* HTHomeFlexModel.m */; };
+		0155CB402A73A0C300170661 /* HTHomeTrendingM20Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA6E2A73A0C200170661 /* HTHomeTrendingM20Model.m */; };
+		0155CB412A73A0C300170661 /* HTSpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA6F2A73A0C200170661 /* HTSpecialModel.m */; };
+		0155CB422A73A0C300170661 /* HTHomeDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA722A73A0C200170661 /* HTHomeDefaultModel.m */; };
+		0155CB432A73A0C300170661 /* HTTVDetailEpsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA772A73A0C200170661 /* HTTVDetailEpsModel.m */; };
+		0155CB442A73A0C300170661 /* HTHomeBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA782A73A0C200170661 /* HTHomeBannerModel.m */; };
+		0155CB452A73A0C300170661 /* HTHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA792A73A0C200170661 /* HTHomeModel.m */; };
+		0155CB462A73A0C300170661 /* HTKaiguanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA7A2A73A0C200170661 /* HTKaiguanModel.m */; };
+		0155CB472A73A0C300170661 /* HTHomeDisplayTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA7E2A73A0C200170661 /* HTHomeDisplayTypeModel.m */; };
+		0155CB482A73A0C300170661 /* HTHomeTrendingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA802A73A0C200170661 /* HTHomeTrendingModel.m */; };
+		0155CB492A73A0C300170661 /* HTTVDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA812A73A0C200170661 /* HTTVDetailModel.m */; };
+		0155CB4A2A73A0C300170661 /* HTTVDetailSeasonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA862A73A0C200170661 /* HTTVDetailSeasonModel.m */; };
+		0155CB4B2A73A0C300170661 /* HTSubtitlesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA872A73A0C200170661 /* HTSubtitlesModel.m */; };
+		0155CB4C2A73A0C300170661 /* HTMovieDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA882A73A0C200170661 /* HTMovieDetailModel.m */; };
+		0155CB4D2A73A0C300170661 /* HTTVDetailCastsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA8A2A73A0C200170661 /* HTTVDetailCastsModel.m */; };
+		0155CB4E2A73A0C300170661 /* HTMoviePlayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA912A73A0C200170661 /* HTMoviePlayViewModel.m */; };
+		0155CB4F2A73A0C300170661 /* HTMoivePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA922A73A0C200170661 /* HTMoivePlayViewController.m */; };
+		0155CB502A73A0C300170661 /* HTHistoryBuriedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA942A73A0C300170661 /* HTHistoryBuriedManager.m */; };
+		0155CB512A73A0C300170661 /* HTSearchResultViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA972A73A0C300170661 /* HTSearchResultViewManager.m */; };
+		0155CB522A73A0C300170661 /* HTSearchAssociationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA982A73A0C300170661 /* HTSearchAssociationVC.m */; };
+		0155CB532A73A0C300170661 /* HTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA9A2A73A0C300170661 /* HTSearchViewController.m */; };
+		0155CB542A73A0C300170661 /* HTSearchHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA9B2A73A0C300170661 /* HTSearchHistoryManager.m */; };
+		0155CB552A73A0C300170661 /* HTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA9C2A73A0C300170661 /* HTHomeViewController.m */; };
+		0155CB562A73A0C300170661 /* HTHomeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA9D2A73A0C300170661 /* HTHomeViewManager.m */; };
+		0155CB572A73A0C300170661 /* HTHomeBuriedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CA9E2A73A0C300170661 /* HTHomeBuriedManager.m */; };
+		0155CB582A73A0C300170661 /* HTAssociationViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAA12A73A0C300170661 /* HTAssociationViewManager.m */; };
+		0155CB592A73A0C300170661 /* HTSearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAA22A73A0C300170661 /* HTSearchResultVC.m */; };
+		0155CB5A2A73A0C300170661 /* HTSpecialViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAA32A73A0C300170661 /* HTSpecialViewModel.m */; };
+		0155CB5B2A73A0C300170661 /* HTSpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAA52A73A0C300170661 /* HTSpecialViewController.m */; };
+		0155CB5C2A73A0C300170661 /* HTHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAA62A73A0C300170661 /* HTHistoryViewController.m */; };
+		0155CB5D2A73A0C300170661 /* HTSearchViewBuriedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAA82A73A0C300170661 /* HTSearchViewBuriedManager.m */; };
+		0155CB5E2A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAAE2A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.m */; };
+		0155CB5F2A73A0C300170661 /* HTHorizontalItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAAF2A73A0C300170661 /* HTHorizontalItemManager.m */; };
+		0155CB602A73A0C300170661 /* HTHomeWaterfallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAB02A73A0C300170661 /* HTHomeWaterfallManager.m */; };
+		0155CB612A73A0C300170661 /* HTPlayerHistoryViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAB22A73A0C300170661 /* HTPlayerHistoryViewManager.m */; };
+		0155CB622A73A0C400170661 /* HTSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAB52A73A0C300170661 /* HTSearchView.m */; };
+		0155CB632A73A0C400170661 /* HTHomeHorizontalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAB62A73A0C300170661 /* HTHomeHorizontalManager.m */; };
+		0155CB642A73A0C400170661 /* HTSearchHistoryKeywordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CABA2A73A0C300170661 /* HTSearchHistoryKeywordCell.m */; };
+		0155CB652A73A0C400170661 /* HTPlayerHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CABC2A73A0C300170661 /* HTPlayerHistoryView.m */; };
+		0155CB662A73A0C400170661 /* HTTVSeasonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CABE2A73A0C300170661 /* HTTVSeasonView.m */; };
+		0155CB672A73A0C400170661 /* HTHomeFooterReuseableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CABF2A73A0C300170661 /* HTHomeFooterReuseableManager.m */; };
+		0155CB682A73A0C400170661 /* HTTVEpsViewCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAC12A73A0C300170661 /* HTTVEpsViewCellManager.m */; };
+		0155CB692A73A0C400170661 /* HTHorizontalItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAC22A73A0C300170661 /* HTHorizontalItemCell.m */; };
+		0155CB6A2A73A0C400170661 /* HTBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAC32A73A0C300170661 /* HTBannerCollectionViewCell.m */; };
+		0155CB6B2A73A0C400170661 /* HTHistoryCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAC42A73A0C300170661 /* HTHistoryCellManager.m */; };
+		0155CB6C2A73A0C400170661 /* HTBannerCollectionCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CACA2A73A0C300170661 /* HTBannerCollectionCellManager.m */; };
+		0155CB6D2A73A0C400170661 /* HTHomeWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CACD2A73A0C300170661 /* HTHomeWaterfallCell.m */; };
+		0155CB6E2A73A0C400170661 /* HTStarLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CACF2A73A0C300170661 /* HTStarLevelView.m */; };
+		0155CB6F2A73A0C400170661 /* HTAdvertBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAD12A73A0C300170661 /* HTAdvertBannerManager.m */; };
+		0155CB702A73A0C400170661 /* HTSearchHistoryHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAD52A73A0C300170661 /* HTSearchHistoryHotCell.m */; };
+		0155CB712A73A0C400170661 /* HTHomeHorizontalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAD62A73A0C300170661 /* HTHomeHorizontalCell.m */; };
+		0155CB722A73A0C400170661 /* HTHomeNineItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAD72A73A0C300170661 /* HTHomeNineItemsCell.m */; };
+		0155CB732A73A0C400170661 /* HTAdvertisementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAD82A73A0C300170661 /* HTAdvertisementView.m */; };
+		0155CB742A73A0C400170661 /* HTSearchHistoryHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CADB2A73A0C300170661 /* HTSearchHistoryHeaderReusableView.m */; };
+		0155CB752A73A0C400170661 /* HTHistoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CADD2A73A0C300170661 /* HTHistoryViewCell.m */; };
+		0155CB762A73A0C400170661 /* HTTVPlayViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CADE2A73A0C300170661 /* HTTVPlayViewCell.m */; };
+		0155CB772A73A0C400170661 /* HTHomeAdsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAE42A73A0C300170661 /* HTHomeAdsCell.m */; };
+		0155CB782A73A0C400170661 /* HTAdvertBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAE62A73A0C300170661 /* HTAdvertBannerView.m */; };
+		0155CB792A73A0C400170661 /* HTHomeFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAE82A73A0C300170661 /* HTHomeFooterReusableView.m */; };
+		0155CB7A2A73A0C400170661 /* HTAdvertisementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAE92A73A0C300170661 /* HTAdvertisementManager.m */; };
+		0155CB7B2A73A0C400170661 /* HTSearchAssociationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAEB2A73A0C300170661 /* HTSearchAssociationCell.m */; };
+		0155CB7C2A73A0C400170661 /* HTHomeNavgationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAEC2A73A0C300170661 /* HTHomeNavgationBar.m */; };
+		0155CB7D2A73A0C400170661 /* HTHistoryAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAED2A73A0C300170661 /* HTHistoryAdCell.m */; };
+		0155CB7E2A73A0C400170661 /* HTAssociationCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAEE2A73A0C300170661 /* HTAssociationCellManager.m */; };
+		0155CB7F2A73A0C400170661 /* HTTVPlayViewCellManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAEF2A73A0C300170661 /* HTTVPlayViewCellManager.m */; };
+		0155CB802A73A0C400170661 /* HTCollectionWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAF42A73A0C300170661 /* HTCollectionWaterFlowLayout.m */; };
+		0155CB812A73A0C400170661 /* HTMoviePlayViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAF62A73A0C300170661 /* HTMoviePlayViewManager.m */; };
+		0155CB822A73A0C400170661 /* HTHomeNineItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAF72A73A0C300170661 /* HTHomeNineItemManager.m */; };
+		0155CB832A73A0C400170661 /* HTHomeHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAF82A73A0C300170661 /* HTHomeHeaderReusableView.m */; };
+		0155CB842A73A0C400170661 /* HTMoivePlayViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAFB2A73A0C300170661 /* HTMoivePlayViewCell.m */; };
+		0155CB852A73A0C400170661 /* HTTVPlayEpsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CAFD2A73A0C300170661 /* HTTVPlayEpsViewCell.m */; };
+		0155CB862A73A0C400170661 /* HTHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB002A73A0C300170661 /* HTHomeViewModel.m */; };
+		0155CB872A73A0C400170661 /* HTHistoryViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB032A73A0C300170661 /* HTHistoryViewManager.m */; };
+		0155CB882A73A0C400170661 /* HTSearchHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB042A73A0C300170661 /* HTSearchHistoryVC.m */; };
+		0155CB892A73A0C400170661 /* HTSubtitleLanguageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB0E2A73A0C300170661 /* HTSubtitleLanguageViewManager.m */; };
+		0155CB8A2A73A0C400170661 /* HTSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB132A73A0C300170661 /* HTSettingCell.m */; };
+		0155CB8B2A73A0C400170661 /* HTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB142A73A0C300170661 /* HTPlayer.m */; };
+		0155CB8C2A73A0C400170661 /* HTEpisodesMainViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB162A73A0C300170661 /* HTEpisodesMainViewManager.m */; };
+		0155CB8D2A73A0C400170661 /* HTChangeEpisodesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB172A73A0C300170661 /* HTChangeEpisodesView.m */; };
+		0155CB8E2A73A0C400170661 /* HTPlayBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB182A73A0C300170661 /* HTPlayBottomBar.m */; };
+		0155CB8F2A73A0C400170661 /* HTSubtitleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB192A73A0C300170661 /* HTSubtitleObject.m */; };
+		0155CB902A73A0C400170661 /* HTEpisodesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB1A2A73A0C300170661 /* HTEpisodesViewCell.m */; };
+		0155CB912A73A0C400170661 /* HTLanguageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB202A73A0C300170661 /* HTLanguageCell.m */; };
+		0155CB922A73A0C400170661 /* HTChangeSubtitleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB212A73A0C300170661 /* HTChangeSubtitleViewManager.m */; };
+		0155CB932A73A0C400170661 /* HTSubtitleMainViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB222A73A0C300170661 /* HTSubtitleMainViewManager.m */; };
+		0155CB942A73A0C400170661 /* HTSubtitleMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB232A73A0C300170661 /* HTSubtitleMainView.m */; };
+		0155CB952A73A0C400170661 /* HTSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB242A73A0C300170661 /* HTSubtitleView.m */; };
+		0155CB962A73A0C400170661 /* HTSubtitleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB272A73A0C300170661 /* HTSubtitleManager.m */; };
+		0155CB972A73A0C400170661 /* HTEpisodesMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB282A73A0C300170661 /* HTEpisodesMainView.m */; };
+		0155CB982A73A0C400170661 /* HTChangeSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB292A73A0C300170661 /* HTChangeSubtitleView.m */; };
+		0155CB992A73A0C400170661 /* HTPlayBottomBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB2A2A73A0C300170661 /* HTPlayBottomBarManager.m */; };
+		0155CB9A2A73A0C400170661 /* HTSubtitleSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB302A73A0C300170661 /* HTSubtitleSettingView.m */; };
+		0155CB9B2A73A0C400170661 /* HTSubtitleLanguageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB312A73A0C300170661 /* HTSubtitleLanguageView.m */; };
+		0155CB9C2A73A0C400170661 /* HTPlayerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB322A73A0C300170661 /* HTPlayerViewModel.m */; };
+		0155CB9D2A73A0C400170661 /* HTSubtitleSettingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB332A73A0C300170661 /* HTSubtitleSettingViewManager.m */; };
+		E6BAE80E3EBC1CC303349829 /* Pods_HTHomeModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F860A377BA3B8494CFB3B34 /* Pods_HTHomeModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0155CA3B2A73A0A800170661 /* HTHomeModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTHomeModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0155CA3E2A73A0A800170661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0155CA3F2A73A0A800170661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0155CA412A73A0A800170661 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0155CA422A73A0A800170661 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0155CA442A73A0A800170661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0155CA452A73A0A800170661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0155CA482A73A0A800170661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0155CA4A2A73A0AA00170661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0155CA4D2A73A0AA00170661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0155CA4F2A73A0AA00170661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0155CA502A73A0AA00170661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0155CA592A73A0C200170661 /* HTFileLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFileLoadOperation.m; sourceTree = "<group>"; };
+		0155CA5A2A73A0C200170661 /* HTFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFileLoader.h; sourceTree = "<group>"; };
+		0155CA5B2A73A0C200170661 /* HTFileLoadReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFileLoadReceipt.m; sourceTree = "<group>"; };
+		0155CA5C2A73A0C200170661 /* HTFileLoadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFileLoadOperation.h; sourceTree = "<group>"; };
+		0155CA5D2A73A0C200170661 /* HTFileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFileLoader.m; sourceTree = "<group>"; };
+		0155CA5E2A73A0C200170661 /* HTFileLoadReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFileLoadReceipt.h; sourceTree = "<group>"; };
+		0155CA602A73A0C200170661 /* HTGuideViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGuideViewManager.m; sourceTree = "<group>"; };
+		0155CA612A73A0C200170661 /* HTGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGuideView.m; sourceTree = "<group>"; };
+		0155CA622A73A0C200170661 /* HTHomePointManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomePointManager.m; sourceTree = "<group>"; };
+		0155CA632A73A0C200170661 /* HTGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTGuideView.h; sourceTree = "<group>"; };
+		0155CA642A73A0C200170661 /* HTGuideViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTGuideViewManager.h; sourceTree = "<group>"; };
+		0155CA652A73A0C200170661 /* HTHomePointManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomePointManager.h; sourceTree = "<group>"; };
+		0155CA672A73A0C200170661 /* HTWaterMovieTvModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWaterMovieTvModel.m; sourceTree = "<group>"; };
+		0155CA682A73A0C200170661 /* HTHomeDisplayTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeDisplayTypeModel.h; sourceTree = "<group>"; };
+		0155CA692A73A0C200170661 /* HTHomeCompositeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeCompositeModel.m; sourceTree = "<group>"; };
+		0155CA6A2A73A0C200170661 /* HTSearchResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchResultModel.m; sourceTree = "<group>"; };
+		0155CA6B2A73A0C200170661 /* HTDBHistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDBHistoryModel.m; sourceTree = "<group>"; };
+		0155CA6C2A73A0C200170661 /* HTSearchMovieTvModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchMovieTvModel.m; sourceTree = "<group>"; };
+		0155CA6D2A73A0C200170661 /* HTHomeFlexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeFlexModel.m; sourceTree = "<group>"; };
+		0155CA6E2A73A0C200170661 /* HTHomeTrendingM20Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeTrendingM20Model.m; sourceTree = "<group>"; };
+		0155CA6F2A73A0C200170661 /* HTSpecialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSpecialModel.m; sourceTree = "<group>"; };
+		0155CA702A73A0C200170661 /* HTTVDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailModel.h; sourceTree = "<group>"; };
+		0155CA712A73A0C200170661 /* HTHomeTrendingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeTrendingModel.h; sourceTree = "<group>"; };
+		0155CA722A73A0C200170661 /* HTHomeDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeDefaultModel.m; sourceTree = "<group>"; };
+		0155CA732A73A0C200170661 /* HTTVDetailCastsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailCastsModel.h; sourceTree = "<group>"; };
+		0155CA742A73A0C200170661 /* HTMovieDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMovieDetailModel.h; sourceTree = "<group>"; };
+		0155CA752A73A0C200170661 /* HTSubtitlesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitlesModel.h; sourceTree = "<group>"; };
+		0155CA762A73A0C200170661 /* HTTVDetailSeasonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailSeasonModel.h; sourceTree = "<group>"; };
+		0155CA772A73A0C200170661 /* HTTVDetailEpsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailEpsModel.m; sourceTree = "<group>"; };
+		0155CA782A73A0C200170661 /* HTHomeBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeBannerModel.m; sourceTree = "<group>"; };
+		0155CA792A73A0C200170661 /* HTHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeModel.m; sourceTree = "<group>"; };
+		0155CA7A2A73A0C200170661 /* HTKaiguanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKaiguanModel.m; sourceTree = "<group>"; };
+		0155CA7B2A73A0C200170661 /* HTDBHistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDBHistoryModel.h; sourceTree = "<group>"; };
+		0155CA7C2A73A0C200170661 /* HTSearchResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchResultModel.h; sourceTree = "<group>"; };
+		0155CA7D2A73A0C200170661 /* HTHomeCompositeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeCompositeModel.h; sourceTree = "<group>"; };
+		0155CA7E2A73A0C200170661 /* HTHomeDisplayTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeDisplayTypeModel.m; sourceTree = "<group>"; };
+		0155CA7F2A73A0C200170661 /* HTWaterMovieTvModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWaterMovieTvModel.h; sourceTree = "<group>"; };
+		0155CA802A73A0C200170661 /* HTHomeTrendingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeTrendingModel.m; sourceTree = "<group>"; };
+		0155CA812A73A0C200170661 /* HTTVDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailModel.m; sourceTree = "<group>"; };
+		0155CA822A73A0C200170661 /* HTSpecialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSpecialModel.h; sourceTree = "<group>"; };
+		0155CA832A73A0C200170661 /* HTHomeTrendingM20Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeTrendingM20Model.h; sourceTree = "<group>"; };
+		0155CA842A73A0C200170661 /* HTHomeFlexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeFlexModel.h; sourceTree = "<group>"; };
+		0155CA852A73A0C200170661 /* HTSearchMovieTvModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchMovieTvModel.h; sourceTree = "<group>"; };
+		0155CA862A73A0C200170661 /* HTTVDetailSeasonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailSeasonModel.m; sourceTree = "<group>"; };
+		0155CA872A73A0C200170661 /* HTSubtitlesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitlesModel.m; sourceTree = "<group>"; };
+		0155CA882A73A0C200170661 /* HTMovieDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMovieDetailModel.m; sourceTree = "<group>"; };
+		0155CA892A73A0C200170661 /* HTHomeDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeDefaultModel.h; sourceTree = "<group>"; };
+		0155CA8A2A73A0C200170661 /* HTTVDetailCastsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailCastsModel.m; sourceTree = "<group>"; };
+		0155CA8B2A73A0C200170661 /* HTKaiguanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKaiguanModel.h; sourceTree = "<group>"; };
+		0155CA8C2A73A0C200170661 /* HTHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeModel.h; sourceTree = "<group>"; };
+		0155CA8D2A73A0C200170661 /* HTHomeBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeBannerModel.h; sourceTree = "<group>"; };
+		0155CA8E2A73A0C200170661 /* HTTVDetailEpsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailEpsModel.h; sourceTree = "<group>"; };
+		0155CA912A73A0C200170661 /* HTMoviePlayViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMoviePlayViewModel.m; sourceTree = "<group>"; };
+		0155CA922A73A0C200170661 /* HTMoivePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMoivePlayViewController.m; sourceTree = "<group>"; };
+		0155CA932A73A0C300170661 /* HTSearchViewBuriedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchViewBuriedManager.h; sourceTree = "<group>"; };
+		0155CA942A73A0C300170661 /* HTHistoryBuriedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHistoryBuriedManager.m; sourceTree = "<group>"; };
+		0155CA952A73A0C300170661 /* HTHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHistoryViewController.h; sourceTree = "<group>"; };
+		0155CA962A73A0C300170661 /* HTSpecialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSpecialViewController.h; sourceTree = "<group>"; };
+		0155CA972A73A0C300170661 /* HTSearchResultViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchResultViewManager.m; sourceTree = "<group>"; };
+		0155CA982A73A0C300170661 /* HTSearchAssociationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchAssociationVC.m; sourceTree = "<group>"; };
+		0155CA992A73A0C300170661 /* HTHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeViewModel.h; sourceTree = "<group>"; };
+		0155CA9A2A73A0C300170661 /* HTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchViewController.m; sourceTree = "<group>"; };
+		0155CA9B2A73A0C300170661 /* HTSearchHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchHistoryManager.m; sourceTree = "<group>"; };
+		0155CA9C2A73A0C300170661 /* HTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeViewController.m; sourceTree = "<group>"; };
+		0155CA9D2A73A0C300170661 /* HTHomeViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeViewManager.m; sourceTree = "<group>"; };
+		0155CA9E2A73A0C300170661 /* HTHomeBuriedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeBuriedManager.m; sourceTree = "<group>"; };
+		0155CA9F2A73A0C300170661 /* HTSearchHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchHistoryVC.h; sourceTree = "<group>"; };
+		0155CAA02A73A0C300170661 /* HTHistoryViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHistoryViewManager.h; sourceTree = "<group>"; };
+		0155CAA12A73A0C300170661 /* HTAssociationViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAssociationViewManager.m; sourceTree = "<group>"; };
+		0155CAA22A73A0C300170661 /* HTSearchResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchResultVC.m; sourceTree = "<group>"; };
+		0155CAA32A73A0C300170661 /* HTSpecialViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSpecialViewModel.m; sourceTree = "<group>"; };
+		0155CAA42A73A0C300170661 /* HTSearchResultViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchResultViewManager.h; sourceTree = "<group>"; };
+		0155CAA52A73A0C300170661 /* HTSpecialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSpecialViewController.m; sourceTree = "<group>"; };
+		0155CAA62A73A0C300170661 /* HTHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHistoryViewController.m; sourceTree = "<group>"; };
+		0155CAA72A73A0C300170661 /* HTHistoryBuriedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHistoryBuriedManager.h; sourceTree = "<group>"; };
+		0155CAA82A73A0C300170661 /* HTSearchViewBuriedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchViewBuriedManager.m; sourceTree = "<group>"; };
+		0155CAA92A73A0C300170661 /* HTMoivePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMoivePlayViewController.h; sourceTree = "<group>"; };
+		0155CAAA2A73A0C300170661 /* HTMoviePlayViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMoviePlayViewModel.h; sourceTree = "<group>"; };
+		0155CAAB2A73A0C300170661 /* HTHomeViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeViewManager.h; sourceTree = "<group>"; };
+		0155CAAC2A73A0C300170661 /* HTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeViewController.h; sourceTree = "<group>"; };
+		0155CAAE2A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeWaterfallHeaderReusableView.m; sourceTree = "<group>"; };
+		0155CAAF2A73A0C300170661 /* HTHorizontalItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHorizontalItemManager.m; sourceTree = "<group>"; };
+		0155CAB02A73A0C300170661 /* HTHomeWaterfallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeWaterfallManager.m; sourceTree = "<group>"; };
+		0155CAB12A73A0C300170661 /* HTTVPlayViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVPlayViewCell.h; sourceTree = "<group>"; };
+		0155CAB22A73A0C300170661 /* HTPlayerHistoryViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayerHistoryViewManager.m; sourceTree = "<group>"; };
+		0155CAB32A73A0C300170661 /* HTHistoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHistoryViewCell.h; sourceTree = "<group>"; };
+		0155CAB42A73A0C300170661 /* HTSearchHistoryHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchHistoryHeaderReusableView.h; sourceTree = "<group>"; };
+		0155CAB52A73A0C300170661 /* HTSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchView.m; sourceTree = "<group>"; };
+		0155CAB62A73A0C300170661 /* HTHomeHorizontalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeHorizontalManager.m; sourceTree = "<group>"; };
+		0155CAB72A73A0C300170661 /* HTHomeNineItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeNineItemsCell.h; sourceTree = "<group>"; };
+		0155CAB82A73A0C300170661 /* HTAdvertisementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAdvertisementView.h; sourceTree = "<group>"; };
+		0155CAB92A73A0C300170661 /* HTHomeHorizontalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeHorizontalCell.h; sourceTree = "<group>"; };
+		0155CABA2A73A0C300170661 /* HTSearchHistoryKeywordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchHistoryKeywordCell.m; sourceTree = "<group>"; };
+		0155CABB2A73A0C300170661 /* HTAdvertBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAdvertBannerView.h; sourceTree = "<group>"; };
+		0155CABC2A73A0C300170661 /* HTPlayerHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayerHistoryView.m; sourceTree = "<group>"; };
+		0155CABD2A73A0C300170661 /* HTHomeAdsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeAdsCell.h; sourceTree = "<group>"; };
+		0155CABE2A73A0C300170661 /* HTTVSeasonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVSeasonView.m; sourceTree = "<group>"; };
+		0155CABF2A73A0C300170661 /* HTHomeFooterReuseableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeFooterReuseableManager.m; sourceTree = "<group>"; };
+		0155CAC02A73A0C300170661 /* HTCollectionWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCollectionWaterFlowLayout.h; sourceTree = "<group>"; };
+		0155CAC12A73A0C300170661 /* HTTVEpsViewCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVEpsViewCellManager.m; sourceTree = "<group>"; };
+		0155CAC22A73A0C300170661 /* HTHorizontalItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHorizontalItemCell.m; sourceTree = "<group>"; };
+		0155CAC32A73A0C300170661 /* HTBannerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		0155CAC42A73A0C300170661 /* HTHistoryCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHistoryCellManager.m; sourceTree = "<group>"; };
+		0155CAC52A73A0C300170661 /* HTTVPlayViewCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVPlayViewCellManager.h; sourceTree = "<group>"; };
+		0155CAC62A73A0C300170661 /* HTAssociationCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAssociationCellManager.h; sourceTree = "<group>"; };
+		0155CAC72A73A0C300170661 /* HTHistoryAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHistoryAdCell.h; sourceTree = "<group>"; };
+		0155CAC82A73A0C300170661 /* HTHomeNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeNavgationBar.h; sourceTree = "<group>"; };
+		0155CAC92A73A0C300170661 /* HTSearchAssociationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchAssociationCell.h; sourceTree = "<group>"; };
+		0155CACA2A73A0C300170661 /* HTBannerCollectionCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBannerCollectionCellManager.m; sourceTree = "<group>"; };
+		0155CACB2A73A0C300170661 /* HTHomeFooterReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeFooterReusableView.h; sourceTree = "<group>"; };
+		0155CACC2A73A0C300170661 /* HTAdvertisementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAdvertisementManager.h; sourceTree = "<group>"; };
+		0155CACD2A73A0C300170661 /* HTHomeWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeWaterfallCell.m; sourceTree = "<group>"; };
+		0155CACE2A73A0C300170661 /* HTTVPlayEpsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVPlayEpsViewCell.h; sourceTree = "<group>"; };
+		0155CACF2A73A0C300170661 /* HTStarLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTStarLevelView.m; sourceTree = "<group>"; };
+		0155CAD02A73A0C300170661 /* HTMoivePlayViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMoivePlayViewCell.h; sourceTree = "<group>"; };
+		0155CAD12A73A0C300170661 /* HTAdvertBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAdvertBannerManager.m; sourceTree = "<group>"; };
+		0155CAD22A73A0C300170661 /* HTHomeHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeHeaderReusableView.h; sourceTree = "<group>"; };
+		0155CAD32A73A0C300170661 /* HTHomeNineItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeNineItemManager.h; sourceTree = "<group>"; };
+		0155CAD42A73A0C300170661 /* HTMoviePlayViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMoviePlayViewManager.h; sourceTree = "<group>"; };
+		0155CAD52A73A0C300170661 /* HTSearchHistoryHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchHistoryHotCell.m; sourceTree = "<group>"; };
+		0155CAD62A73A0C300170661 /* HTHomeHorizontalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeHorizontalCell.m; sourceTree = "<group>"; };
+		0155CAD72A73A0C300170661 /* HTHomeNineItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeNineItemsCell.m; sourceTree = "<group>"; };
+		0155CAD82A73A0C300170661 /* HTAdvertisementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAdvertisementView.m; sourceTree = "<group>"; };
+		0155CAD92A73A0C300170661 /* HTSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchView.h; sourceTree = "<group>"; };
+		0155CADA2A73A0C300170661 /* HTHomeHorizontalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeHorizontalManager.h; sourceTree = "<group>"; };
+		0155CADB2A73A0C300170661 /* HTSearchHistoryHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchHistoryHeaderReusableView.m; sourceTree = "<group>"; };
+		0155CADC2A73A0C300170661 /* HTPlayerHistoryViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayerHistoryViewManager.h; sourceTree = "<group>"; };
+		0155CADD2A73A0C300170661 /* HTHistoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHistoryViewCell.m; sourceTree = "<group>"; };
+		0155CADE2A73A0C300170661 /* HTTVPlayViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVPlayViewCell.m; sourceTree = "<group>"; };
+		0155CADF2A73A0C300170661 /* HTHorizontalItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHorizontalItemManager.h; sourceTree = "<group>"; };
+		0155CAE02A73A0C300170661 /* HTHomeWaterfallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeWaterfallManager.h; sourceTree = "<group>"; };
+		0155CAE12A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeWaterfallHeaderReusableView.h; sourceTree = "<group>"; };
+		0155CAE22A73A0C300170661 /* HTTVSeasonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVSeasonView.h; sourceTree = "<group>"; };
+		0155CAE32A73A0C300170661 /* HTHomeFooterReuseableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeFooterReuseableManager.h; sourceTree = "<group>"; };
+		0155CAE42A73A0C300170661 /* HTHomeAdsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeAdsCell.m; sourceTree = "<group>"; };
+		0155CAE52A73A0C300170661 /* HTPlayerHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayerHistoryView.h; sourceTree = "<group>"; };
+		0155CAE62A73A0C300170661 /* HTAdvertBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAdvertBannerView.m; sourceTree = "<group>"; };
+		0155CAE72A73A0C300170661 /* HTSearchHistoryKeywordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchHistoryKeywordCell.h; sourceTree = "<group>"; };
+		0155CAE82A73A0C300170661 /* HTHomeFooterReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeFooterReusableView.m; sourceTree = "<group>"; };
+		0155CAE92A73A0C300170661 /* HTAdvertisementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAdvertisementManager.m; sourceTree = "<group>"; };
+		0155CAEA2A73A0C300170661 /* HTBannerCollectionCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBannerCollectionCellManager.h; sourceTree = "<group>"; };
+		0155CAEB2A73A0C300170661 /* HTSearchAssociationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchAssociationCell.m; sourceTree = "<group>"; };
+		0155CAEC2A73A0C300170661 /* HTHomeNavgationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeNavgationBar.m; sourceTree = "<group>"; };
+		0155CAED2A73A0C300170661 /* HTHistoryAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHistoryAdCell.m; sourceTree = "<group>"; };
+		0155CAEE2A73A0C300170661 /* HTAssociationCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAssociationCellManager.m; sourceTree = "<group>"; };
+		0155CAEF2A73A0C300170661 /* HTTVPlayViewCellManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVPlayViewCellManager.m; sourceTree = "<group>"; };
+		0155CAF02A73A0C300170661 /* HTHistoryCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHistoryCellManager.h; sourceTree = "<group>"; };
+		0155CAF12A73A0C300170661 /* HTTVEpsViewCellManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVEpsViewCellManager.h; sourceTree = "<group>"; };
+		0155CAF22A73A0C300170661 /* HTHorizontalItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHorizontalItemCell.h; sourceTree = "<group>"; };
+		0155CAF32A73A0C300170661 /* HTBannerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		0155CAF42A73A0C300170661 /* HTCollectionWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCollectionWaterFlowLayout.m; sourceTree = "<group>"; };
+		0155CAF52A73A0C300170661 /* HTSearchHistoryHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchHistoryHotCell.h; sourceTree = "<group>"; };
+		0155CAF62A73A0C300170661 /* HTMoviePlayViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMoviePlayViewManager.m; sourceTree = "<group>"; };
+		0155CAF72A73A0C300170661 /* HTHomeNineItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeNineItemManager.m; sourceTree = "<group>"; };
+		0155CAF82A73A0C300170661 /* HTHomeHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeHeaderReusableView.m; sourceTree = "<group>"; };
+		0155CAF92A73A0C300170661 /* HTAdvertBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAdvertBannerManager.h; sourceTree = "<group>"; };
+		0155CAFA2A73A0C300170661 /* HTStarLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTStarLevelView.h; sourceTree = "<group>"; };
+		0155CAFB2A73A0C300170661 /* HTMoivePlayViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMoivePlayViewCell.m; sourceTree = "<group>"; };
+		0155CAFC2A73A0C300170661 /* HTHomeWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeWaterfallCell.h; sourceTree = "<group>"; };
+		0155CAFD2A73A0C300170661 /* HTTVPlayEpsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVPlayEpsViewCell.m; sourceTree = "<group>"; };
+		0155CAFE2A73A0C300170661 /* HTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchViewController.h; sourceTree = "<group>"; };
+		0155CAFF2A73A0C300170661 /* HTSearchHistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchHistoryManager.h; sourceTree = "<group>"; };
+		0155CB002A73A0C300170661 /* HTHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeViewModel.m; sourceTree = "<group>"; };
+		0155CB012A73A0C300170661 /* HTSearchAssociationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchAssociationVC.h; sourceTree = "<group>"; };
+		0155CB022A73A0C300170661 /* HTAssociationViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAssociationViewManager.h; sourceTree = "<group>"; };
+		0155CB032A73A0C300170661 /* HTHistoryViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHistoryViewManager.m; sourceTree = "<group>"; };
+		0155CB042A73A0C300170661 /* HTSearchHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSearchHistoryVC.m; sourceTree = "<group>"; };
+		0155CB052A73A0C300170661 /* HTHomeBuriedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeBuriedManager.h; sourceTree = "<group>"; };
+		0155CB062A73A0C300170661 /* HTMoviePlayerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMoviePlayerViewManager.h; sourceTree = "<group>"; };
+		0155CB072A73A0C300170661 /* HTSpecialViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSpecialViewModel.h; sourceTree = "<group>"; };
+		0155CB082A73A0C300170661 /* HTSearchResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSearchResultVC.h; sourceTree = "<group>"; };
+		0155CB0A2A73A0C300170661 /* HTSubtitleMainViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleMainViewManager.h; sourceTree = "<group>"; };
+		0155CB0B2A73A0C300170661 /* HTSubtitleMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleMainView.h; sourceTree = "<group>"; };
+		0155CB0C2A73A0C300170661 /* HTChangeSubtitleViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTChangeSubtitleViewManager.h; sourceTree = "<group>"; };
+		0155CB0D2A73A0C300170661 /* HTLanguageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLanguageCell.h; sourceTree = "<group>"; };
+		0155CB0E2A73A0C300170661 /* HTSubtitleLanguageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleLanguageViewManager.m; sourceTree = "<group>"; };
+		0155CB0F2A73A0C300170661 /* HTPlayBottomBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayBottomBarManager.h; sourceTree = "<group>"; };
+		0155CB102A73A0C300170661 /* HTChangeSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTChangeSubtitleView.h; sourceTree = "<group>"; };
+		0155CB112A73A0C300170661 /* HTEpisodesMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEpisodesMainView.h; sourceTree = "<group>"; };
+		0155CB122A73A0C300170661 /* HTSubtitleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleManager.h; sourceTree = "<group>"; };
+		0155CB132A73A0C300170661 /* HTSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSettingCell.m; sourceTree = "<group>"; };
+		0155CB142A73A0C300170661 /* HTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayer.m; sourceTree = "<group>"; };
+		0155CB152A73A0C300170661 /* HTSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleView.h; sourceTree = "<group>"; };
+		0155CB162A73A0C300170661 /* HTEpisodesMainViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEpisodesMainViewManager.m; sourceTree = "<group>"; };
+		0155CB172A73A0C300170661 /* HTChangeEpisodesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTChangeEpisodesView.m; sourceTree = "<group>"; };
+		0155CB182A73A0C300170661 /* HTPlayBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayBottomBar.m; sourceTree = "<group>"; };
+		0155CB192A73A0C300170661 /* HTSubtitleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleObject.m; sourceTree = "<group>"; };
+		0155CB1A2A73A0C300170661 /* HTEpisodesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEpisodesViewCell.m; sourceTree = "<group>"; };
+		0155CB1B2A73A0C300170661 /* HTSubtitleSettingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleSettingViewManager.h; sourceTree = "<group>"; };
+		0155CB1C2A73A0C300170661 /* HTPlayerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayerViewModel.h; sourceTree = "<group>"; };
+		0155CB1D2A73A0C300170661 /* HTSubtitleLanguageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleLanguageView.h; sourceTree = "<group>"; };
+		0155CB1E2A73A0C300170661 /* HTSubtitleSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleSettingView.h; sourceTree = "<group>"; };
+		0155CB1F2A73A0C300170661 /* HTSubtitleLanguageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleLanguageViewManager.h; sourceTree = "<group>"; };
+		0155CB202A73A0C300170661 /* HTLanguageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLanguageCell.m; sourceTree = "<group>"; };
+		0155CB212A73A0C300170661 /* HTChangeSubtitleViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTChangeSubtitleViewManager.m; sourceTree = "<group>"; };
+		0155CB222A73A0C300170661 /* HTSubtitleMainViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleMainViewManager.m; sourceTree = "<group>"; };
+		0155CB232A73A0C300170661 /* HTSubtitleMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleMainView.m; sourceTree = "<group>"; };
+		0155CB242A73A0C300170661 /* HTSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleView.m; sourceTree = "<group>"; };
+		0155CB252A73A0C300170661 /* HTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayer.h; sourceTree = "<group>"; };
+		0155CB262A73A0C300170661 /* HTSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSettingCell.h; sourceTree = "<group>"; };
+		0155CB272A73A0C300170661 /* HTSubtitleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleManager.m; sourceTree = "<group>"; };
+		0155CB282A73A0C300170661 /* HTEpisodesMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEpisodesMainView.m; sourceTree = "<group>"; };
+		0155CB292A73A0C300170661 /* HTChangeSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTChangeSubtitleView.m; sourceTree = "<group>"; };
+		0155CB2A2A73A0C300170661 /* HTPlayBottomBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayBottomBarManager.m; sourceTree = "<group>"; };
+		0155CB2B2A73A0C300170661 /* HTEpisodesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEpisodesViewCell.h; sourceTree = "<group>"; };
+		0155CB2C2A73A0C300170661 /* HTSubtitleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleObject.h; sourceTree = "<group>"; };
+		0155CB2D2A73A0C300170661 /* HTPlayBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayBottomBar.h; sourceTree = "<group>"; };
+		0155CB2E2A73A0C300170661 /* HTEpisodesMainViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEpisodesMainViewManager.h; sourceTree = "<group>"; };
+		0155CB2F2A73A0C300170661 /* HTChangeEpisodesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTChangeEpisodesView.h; sourceTree = "<group>"; };
+		0155CB302A73A0C300170661 /* HTSubtitleSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleSettingView.m; sourceTree = "<group>"; };
+		0155CB312A73A0C300170661 /* HTSubtitleLanguageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleLanguageView.m; sourceTree = "<group>"; };
+		0155CB322A73A0C300170661 /* HTPlayerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayerViewModel.m; sourceTree = "<group>"; };
+		0155CB332A73A0C300170661 /* HTSubtitleSettingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleSettingViewManager.m; sourceTree = "<group>"; };
+		0155CB9E2A73A0CC00170661 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4F860A377BA3B8494CFB3B34 /* Pods_HTHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773DCC64C98AB0E51C17274B /* Pods-HTHomeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTHomeModule.debug.xcconfig"; path = "Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule.debug.xcconfig"; sourceTree = "<group>"; };
+		BBEA79C816EAF48B047BDF54 /* Pods-HTHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTHomeModule.release.xcconfig"; path = "Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0155CA382A73A0A800170661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BAE80E3EBC1CC303349829 /* Pods_HTHomeModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0155CA322A73A0A800170661 = {
+			isa = PBXGroup;
+			children = (
+				0155CA3D2A73A0A800170661 /* HTHomeModule */,
+				0155CA3C2A73A0A800170661 /* Products */,
+				9978A59DB2868539FABA2C40 /* Pods */,
+				F36DA015B52DC3105B84189D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0155CA3C2A73A0A800170661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA3B2A73A0A800170661 /* HTHomeModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0155CA3D2A73A0A800170661 /* HTHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA572A73A0C200170661 /* Classes */,
+				0155CA3E2A73A0A800170661 /* AppDelegate.h */,
+				0155CA3F2A73A0A800170661 /* AppDelegate.m */,
+				0155CA412A73A0A800170661 /* SceneDelegate.h */,
+				0155CA422A73A0A800170661 /* SceneDelegate.m */,
+				0155CA442A73A0A800170661 /* ViewController.h */,
+				0155CA452A73A0A800170661 /* ViewController.m */,
+				0155CB9E2A73A0CC00170661 /* PrefixHeader.pch */,
+				0155CA472A73A0A800170661 /* Main.storyboard */,
+				0155CA4A2A73A0AA00170661 /* Assets.xcassets */,
+				0155CA4C2A73A0AA00170661 /* LaunchScreen.storyboard */,
+				0155CA4F2A73A0AA00170661 /* Info.plist */,
+				0155CA502A73A0AA00170661 /* main.m */,
+			);
+			path = HTHomeModule;
+			sourceTree = "<group>";
+		};
+		0155CA572A73A0C200170661 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA582A73A0C200170661 /* HTFileLoader */,
+				0155CA5F2A73A0C200170661 /* Other */,
+				0155CA662A73A0C200170661 /* Model */,
+				0155CA8F2A73A0C200170661 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0155CA582A73A0C200170661 /* HTFileLoader */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA5A2A73A0C200170661 /* HTFileLoader.h */,
+				0155CA5D2A73A0C200170661 /* HTFileLoader.m */,
+				0155CA5C2A73A0C200170661 /* HTFileLoadOperation.h */,
+				0155CA592A73A0C200170661 /* HTFileLoadOperation.m */,
+				0155CA5E2A73A0C200170661 /* HTFileLoadReceipt.h */,
+				0155CA5B2A73A0C200170661 /* HTFileLoadReceipt.m */,
+			);
+			path = HTFileLoader;
+			sourceTree = "<group>";
+		};
+		0155CA5F2A73A0C200170661 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA632A73A0C200170661 /* HTGuideView.h */,
+				0155CA612A73A0C200170661 /* HTGuideView.m */,
+				0155CA642A73A0C200170661 /* HTGuideViewManager.h */,
+				0155CA602A73A0C200170661 /* HTGuideViewManager.m */,
+				0155CA652A73A0C200170661 /* HTHomePointManager.h */,
+				0155CA622A73A0C200170661 /* HTHomePointManager.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0155CA662A73A0C200170661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA7B2A73A0C200170661 /* HTDBHistoryModel.h */,
+				0155CA6B2A73A0C200170661 /* HTDBHistoryModel.m */,
+				0155CA8D2A73A0C200170661 /* HTHomeBannerModel.h */,
+				0155CA782A73A0C200170661 /* HTHomeBannerModel.m */,
+				0155CA7D2A73A0C200170661 /* HTHomeCompositeModel.h */,
+				0155CA692A73A0C200170661 /* HTHomeCompositeModel.m */,
+				0155CA892A73A0C200170661 /* HTHomeDefaultModel.h */,
+				0155CA722A73A0C200170661 /* HTHomeDefaultModel.m */,
+				0155CA682A73A0C200170661 /* HTHomeDisplayTypeModel.h */,
+				0155CA7E2A73A0C200170661 /* HTHomeDisplayTypeModel.m */,
+				0155CA842A73A0C200170661 /* HTHomeFlexModel.h */,
+				0155CA6D2A73A0C200170661 /* HTHomeFlexModel.m */,
+				0155CA8C2A73A0C200170661 /* HTHomeModel.h */,
+				0155CA792A73A0C200170661 /* HTHomeModel.m */,
+				0155CA832A73A0C200170661 /* HTHomeTrendingM20Model.h */,
+				0155CA6E2A73A0C200170661 /* HTHomeTrendingM20Model.m */,
+				0155CA712A73A0C200170661 /* HTHomeTrendingModel.h */,
+				0155CA802A73A0C200170661 /* HTHomeTrendingModel.m */,
+				0155CA8B2A73A0C200170661 /* HTKaiguanModel.h */,
+				0155CA7A2A73A0C200170661 /* HTKaiguanModel.m */,
+				0155CA742A73A0C200170661 /* HTMovieDetailModel.h */,
+				0155CA882A73A0C200170661 /* HTMovieDetailModel.m */,
+				0155CA852A73A0C200170661 /* HTSearchMovieTvModel.h */,
+				0155CA6C2A73A0C200170661 /* HTSearchMovieTvModel.m */,
+				0155CA7C2A73A0C200170661 /* HTSearchResultModel.h */,
+				0155CA6A2A73A0C200170661 /* HTSearchResultModel.m */,
+				0155CA822A73A0C200170661 /* HTSpecialModel.h */,
+				0155CA6F2A73A0C200170661 /* HTSpecialModel.m */,
+				0155CA752A73A0C200170661 /* HTSubtitlesModel.h */,
+				0155CA872A73A0C200170661 /* HTSubtitlesModel.m */,
+				0155CA732A73A0C200170661 /* HTTVDetailCastsModel.h */,
+				0155CA8A2A73A0C200170661 /* HTTVDetailCastsModel.m */,
+				0155CA8E2A73A0C200170661 /* HTTVDetailEpsModel.h */,
+				0155CA772A73A0C200170661 /* HTTVDetailEpsModel.m */,
+				0155CA702A73A0C200170661 /* HTTVDetailModel.h */,
+				0155CA812A73A0C200170661 /* HTTVDetailModel.m */,
+				0155CA762A73A0C200170661 /* HTTVDetailSeasonModel.h */,
+				0155CA862A73A0C200170661 /* HTTVDetailSeasonModel.m */,
+				0155CA7F2A73A0C200170661 /* HTWaterMovieTvModel.h */,
+				0155CA672A73A0C200170661 /* HTWaterMovieTvModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0155CA8F2A73A0C200170661 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0155CA902A73A0C200170661 /* Home */,
+				0155CB092A73A0C300170661 /* Player */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0155CA902A73A0C200170661 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0155CB022A73A0C300170661 /* HTAssociationViewManager.h */,
+				0155CAA12A73A0C300170661 /* HTAssociationViewManager.m */,
+				0155CAA72A73A0C300170661 /* HTHistoryBuriedManager.h */,
+				0155CA942A73A0C300170661 /* HTHistoryBuriedManager.m */,
+				0155CA952A73A0C300170661 /* HTHistoryViewController.h */,
+				0155CAA62A73A0C300170661 /* HTHistoryViewController.m */,
+				0155CAA02A73A0C300170661 /* HTHistoryViewManager.h */,
+				0155CB032A73A0C300170661 /* HTHistoryViewManager.m */,
+				0155CB052A73A0C300170661 /* HTHomeBuriedManager.h */,
+				0155CA9E2A73A0C300170661 /* HTHomeBuriedManager.m */,
+				0155CAAC2A73A0C300170661 /* HTHomeViewController.h */,
+				0155CA9C2A73A0C300170661 /* HTHomeViewController.m */,
+				0155CAAB2A73A0C300170661 /* HTHomeViewManager.h */,
+				0155CA9D2A73A0C300170661 /* HTHomeViewManager.m */,
+				0155CA992A73A0C300170661 /* HTHomeViewModel.h */,
+				0155CB002A73A0C300170661 /* HTHomeViewModel.m */,
+				0155CAA92A73A0C300170661 /* HTMoivePlayViewController.h */,
+				0155CA922A73A0C200170661 /* HTMoivePlayViewController.m */,
+				0155CB062A73A0C300170661 /* HTMoviePlayerViewManager.h */,
+				0155CAAA2A73A0C300170661 /* HTMoviePlayViewModel.h */,
+				0155CA912A73A0C200170661 /* HTMoviePlayViewModel.m */,
+				0155CB012A73A0C300170661 /* HTSearchAssociationVC.h */,
+				0155CA982A73A0C300170661 /* HTSearchAssociationVC.m */,
+				0155CAFF2A73A0C300170661 /* HTSearchHistoryManager.h */,
+				0155CA9B2A73A0C300170661 /* HTSearchHistoryManager.m */,
+				0155CA9F2A73A0C300170661 /* HTSearchHistoryVC.h */,
+				0155CB042A73A0C300170661 /* HTSearchHistoryVC.m */,
+				0155CB082A73A0C300170661 /* HTSearchResultVC.h */,
+				0155CAA22A73A0C300170661 /* HTSearchResultVC.m */,
+				0155CAA42A73A0C300170661 /* HTSearchResultViewManager.h */,
+				0155CA972A73A0C300170661 /* HTSearchResultViewManager.m */,
+				0155CA932A73A0C300170661 /* HTSearchViewBuriedManager.h */,
+				0155CAA82A73A0C300170661 /* HTSearchViewBuriedManager.m */,
+				0155CAFE2A73A0C300170661 /* HTSearchViewController.h */,
+				0155CA9A2A73A0C300170661 /* HTSearchViewController.m */,
+				0155CA962A73A0C300170661 /* HTSpecialViewController.h */,
+				0155CAA52A73A0C300170661 /* HTSpecialViewController.m */,
+				0155CB072A73A0C300170661 /* HTSpecialViewModel.h */,
+				0155CAA32A73A0C300170661 /* HTSpecialViewModel.m */,
+				0155CAAD2A73A0C300170661 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0155CAAD2A73A0C300170661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0155CAF92A73A0C300170661 /* HTAdvertBannerManager.h */,
+				0155CAD12A73A0C300170661 /* HTAdvertBannerManager.m */,
+				0155CABB2A73A0C300170661 /* HTAdvertBannerView.h */,
+				0155CAE62A73A0C300170661 /* HTAdvertBannerView.m */,
+				0155CACC2A73A0C300170661 /* HTAdvertisementManager.h */,
+				0155CAE92A73A0C300170661 /* HTAdvertisementManager.m */,
+				0155CAB82A73A0C300170661 /* HTAdvertisementView.h */,
+				0155CAD82A73A0C300170661 /* HTAdvertisementView.m */,
+				0155CAC62A73A0C300170661 /* HTAssociationCellManager.h */,
+				0155CAEE2A73A0C300170661 /* HTAssociationCellManager.m */,
+				0155CAEA2A73A0C300170661 /* HTBannerCollectionCellManager.h */,
+				0155CACA2A73A0C300170661 /* HTBannerCollectionCellManager.m */,
+				0155CAF32A73A0C300170661 /* HTBannerCollectionViewCell.h */,
+				0155CAC32A73A0C300170661 /* HTBannerCollectionViewCell.m */,
+				0155CAC02A73A0C300170661 /* HTCollectionWaterFlowLayout.h */,
+				0155CAF42A73A0C300170661 /* HTCollectionWaterFlowLayout.m */,
+				0155CAC72A73A0C300170661 /* HTHistoryAdCell.h */,
+				0155CAED2A73A0C300170661 /* HTHistoryAdCell.m */,
+				0155CAF02A73A0C300170661 /* HTHistoryCellManager.h */,
+				0155CAC42A73A0C300170661 /* HTHistoryCellManager.m */,
+				0155CAB32A73A0C300170661 /* HTHistoryViewCell.h */,
+				0155CADD2A73A0C300170661 /* HTHistoryViewCell.m */,
+				0155CABD2A73A0C300170661 /* HTHomeAdsCell.h */,
+				0155CAE42A73A0C300170661 /* HTHomeAdsCell.m */,
+				0155CACB2A73A0C300170661 /* HTHomeFooterReusableView.h */,
+				0155CAE82A73A0C300170661 /* HTHomeFooterReusableView.m */,
+				0155CAE32A73A0C300170661 /* HTHomeFooterReuseableManager.h */,
+				0155CABF2A73A0C300170661 /* HTHomeFooterReuseableManager.m */,
+				0155CAD22A73A0C300170661 /* HTHomeHeaderReusableView.h */,
+				0155CAF82A73A0C300170661 /* HTHomeHeaderReusableView.m */,
+				0155CAB92A73A0C300170661 /* HTHomeHorizontalCell.h */,
+				0155CAD62A73A0C300170661 /* HTHomeHorizontalCell.m */,
+				0155CADA2A73A0C300170661 /* HTHomeHorizontalManager.h */,
+				0155CAB62A73A0C300170661 /* HTHomeHorizontalManager.m */,
+				0155CAC82A73A0C300170661 /* HTHomeNavgationBar.h */,
+				0155CAEC2A73A0C300170661 /* HTHomeNavgationBar.m */,
+				0155CAD32A73A0C300170661 /* HTHomeNineItemManager.h */,
+				0155CAF72A73A0C300170661 /* HTHomeNineItemManager.m */,
+				0155CAB72A73A0C300170661 /* HTHomeNineItemsCell.h */,
+				0155CAD72A73A0C300170661 /* HTHomeNineItemsCell.m */,
+				0155CAFC2A73A0C300170661 /* HTHomeWaterfallCell.h */,
+				0155CACD2A73A0C300170661 /* HTHomeWaterfallCell.m */,
+				0155CAE12A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.h */,
+				0155CAAE2A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.m */,
+				0155CAE02A73A0C300170661 /* HTHomeWaterfallManager.h */,
+				0155CAB02A73A0C300170661 /* HTHomeWaterfallManager.m */,
+				0155CAF22A73A0C300170661 /* HTHorizontalItemCell.h */,
+				0155CAC22A73A0C300170661 /* HTHorizontalItemCell.m */,
+				0155CADF2A73A0C300170661 /* HTHorizontalItemManager.h */,
+				0155CAAF2A73A0C300170661 /* HTHorizontalItemManager.m */,
+				0155CAD02A73A0C300170661 /* HTMoivePlayViewCell.h */,
+				0155CAFB2A73A0C300170661 /* HTMoivePlayViewCell.m */,
+				0155CAD42A73A0C300170661 /* HTMoviePlayViewManager.h */,
+				0155CAF62A73A0C300170661 /* HTMoviePlayViewManager.m */,
+				0155CAE52A73A0C300170661 /* HTPlayerHistoryView.h */,
+				0155CABC2A73A0C300170661 /* HTPlayerHistoryView.m */,
+				0155CADC2A73A0C300170661 /* HTPlayerHistoryViewManager.h */,
+				0155CAB22A73A0C300170661 /* HTPlayerHistoryViewManager.m */,
+				0155CAC92A73A0C300170661 /* HTSearchAssociationCell.h */,
+				0155CAEB2A73A0C300170661 /* HTSearchAssociationCell.m */,
+				0155CAB42A73A0C300170661 /* HTSearchHistoryHeaderReusableView.h */,
+				0155CADB2A73A0C300170661 /* HTSearchHistoryHeaderReusableView.m */,
+				0155CAF52A73A0C300170661 /* HTSearchHistoryHotCell.h */,
+				0155CAD52A73A0C300170661 /* HTSearchHistoryHotCell.m */,
+				0155CAE72A73A0C300170661 /* HTSearchHistoryKeywordCell.h */,
+				0155CABA2A73A0C300170661 /* HTSearchHistoryKeywordCell.m */,
+				0155CAD92A73A0C300170661 /* HTSearchView.h */,
+				0155CAB52A73A0C300170661 /* HTSearchView.m */,
+				0155CAFA2A73A0C300170661 /* HTStarLevelView.h */,
+				0155CACF2A73A0C300170661 /* HTStarLevelView.m */,
+				0155CAF12A73A0C300170661 /* HTTVEpsViewCellManager.h */,
+				0155CAC12A73A0C300170661 /* HTTVEpsViewCellManager.m */,
+				0155CACE2A73A0C300170661 /* HTTVPlayEpsViewCell.h */,
+				0155CAFD2A73A0C300170661 /* HTTVPlayEpsViewCell.m */,
+				0155CAB12A73A0C300170661 /* HTTVPlayViewCell.h */,
+				0155CADE2A73A0C300170661 /* HTTVPlayViewCell.m */,
+				0155CAC52A73A0C300170661 /* HTTVPlayViewCellManager.h */,
+				0155CAEF2A73A0C300170661 /* HTTVPlayViewCellManager.m */,
+				0155CAE22A73A0C300170661 /* HTTVSeasonView.h */,
+				0155CABE2A73A0C300170661 /* HTTVSeasonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0155CB092A73A0C300170661 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				0155CB2F2A73A0C300170661 /* HTChangeEpisodesView.h */,
+				0155CB172A73A0C300170661 /* HTChangeEpisodesView.m */,
+				0155CB102A73A0C300170661 /* HTChangeSubtitleView.h */,
+				0155CB292A73A0C300170661 /* HTChangeSubtitleView.m */,
+				0155CB0C2A73A0C300170661 /* HTChangeSubtitleViewManager.h */,
+				0155CB212A73A0C300170661 /* HTChangeSubtitleViewManager.m */,
+				0155CB112A73A0C300170661 /* HTEpisodesMainView.h */,
+				0155CB282A73A0C300170661 /* HTEpisodesMainView.m */,
+				0155CB2E2A73A0C300170661 /* HTEpisodesMainViewManager.h */,
+				0155CB162A73A0C300170661 /* HTEpisodesMainViewManager.m */,
+				0155CB2B2A73A0C300170661 /* HTEpisodesViewCell.h */,
+				0155CB1A2A73A0C300170661 /* HTEpisodesViewCell.m */,
+				0155CB0D2A73A0C300170661 /* HTLanguageCell.h */,
+				0155CB202A73A0C300170661 /* HTLanguageCell.m */,
+				0155CB2D2A73A0C300170661 /* HTPlayBottomBar.h */,
+				0155CB182A73A0C300170661 /* HTPlayBottomBar.m */,
+				0155CB0F2A73A0C300170661 /* HTPlayBottomBarManager.h */,
+				0155CB2A2A73A0C300170661 /* HTPlayBottomBarManager.m */,
+				0155CB252A73A0C300170661 /* HTPlayer.h */,
+				0155CB142A73A0C300170661 /* HTPlayer.m */,
+				0155CB1C2A73A0C300170661 /* HTPlayerViewModel.h */,
+				0155CB322A73A0C300170661 /* HTPlayerViewModel.m */,
+				0155CB262A73A0C300170661 /* HTSettingCell.h */,
+				0155CB132A73A0C300170661 /* HTSettingCell.m */,
+				0155CB1D2A73A0C300170661 /* HTSubtitleLanguageView.h */,
+				0155CB312A73A0C300170661 /* HTSubtitleLanguageView.m */,
+				0155CB1F2A73A0C300170661 /* HTSubtitleLanguageViewManager.h */,
+				0155CB0E2A73A0C300170661 /* HTSubtitleLanguageViewManager.m */,
+				0155CB0B2A73A0C300170661 /* HTSubtitleMainView.h */,
+				0155CB232A73A0C300170661 /* HTSubtitleMainView.m */,
+				0155CB0A2A73A0C300170661 /* HTSubtitleMainViewManager.h */,
+				0155CB222A73A0C300170661 /* HTSubtitleMainViewManager.m */,
+				0155CB122A73A0C300170661 /* HTSubtitleManager.h */,
+				0155CB272A73A0C300170661 /* HTSubtitleManager.m */,
+				0155CB2C2A73A0C300170661 /* HTSubtitleObject.h */,
+				0155CB192A73A0C300170661 /* HTSubtitleObject.m */,
+				0155CB1E2A73A0C300170661 /* HTSubtitleSettingView.h */,
+				0155CB302A73A0C300170661 /* HTSubtitleSettingView.m */,
+				0155CB1B2A73A0C300170661 /* HTSubtitleSettingViewManager.h */,
+				0155CB332A73A0C300170661 /* HTSubtitleSettingViewManager.m */,
+				0155CB152A73A0C300170661 /* HTSubtitleView.h */,
+				0155CB242A73A0C300170661 /* HTSubtitleView.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		9978A59DB2868539FABA2C40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				773DCC64C98AB0E51C17274B /* Pods-HTHomeModule.debug.xcconfig */,
+				BBEA79C816EAF48B047BDF54 /* Pods-HTHomeModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F36DA015B52DC3105B84189D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F860A377BA3B8494CFB3B34 /* Pods_HTHomeModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0155CA3A2A73A0A800170661 /* HTHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0155CA542A73A0AA00170661 /* Build configuration list for PBXNativeTarget "HTHomeModule" */;
+			buildPhases = (
+				E95DD7A303B4455726308EE1 /* [CP] Check Pods Manifest.lock */,
+				0155CA372A73A0A800170661 /* Sources */,
+				0155CA382A73A0A800170661 /* Frameworks */,
+				0155CA392A73A0A800170661 /* Resources */,
+				2B8F721CA76B06DA2178FC32 /* [CP] Embed Pods Frameworks */,
+				FC3FC813511F96B9EE51D7E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTHomeModule;
+			productName = HTHomeModule;
+			productReference = 0155CA3B2A73A0A800170661 /* HTHomeModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0155CA332A73A0A800170661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0155CA3A2A73A0A800170661 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 0155CA362A73A0A800170661 /* Build configuration list for PBXProject "HTHomeModule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0155CA322A73A0A800170661;
+			productRefGroup = 0155CA3C2A73A0A800170661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0155CA3A2A73A0A800170661 /* HTHomeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0155CA392A73A0A800170661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0155CA4E2A73A0AA00170661 /* LaunchScreen.storyboard in Resources */,
+				0155CA4B2A73A0AA00170661 /* Assets.xcassets in Resources */,
+				0155CA492A73A0A800170661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B8F721CA76B06DA2178FC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95DD7A303B4455726308EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTHomeModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3FC813511F96B9EE51D7E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTHomeModule/Pods-HTHomeModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0155CA372A73A0A800170661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0155CB602A73A0C300170661 /* HTHomeWaterfallManager.m in Sources */,
+				0155CB622A73A0C400170661 /* HTSearchView.m in Sources */,
+				0155CB762A73A0C400170661 /* HTTVPlayViewCell.m in Sources */,
+				0155CB342A73A0C300170661 /* HTFileLoadOperation.m in Sources */,
+				0155CB542A73A0C300170661 /* HTSearchHistoryManager.m in Sources */,
+				0155CB932A73A0C400170661 /* HTSubtitleMainViewManager.m in Sources */,
+				0155CB5A2A73A0C300170661 /* HTSpecialViewModel.m in Sources */,
+				0155CB9A2A73A0C400170661 /* HTSubtitleSettingView.m in Sources */,
+				0155CB842A73A0C400170661 /* HTMoivePlayViewCell.m in Sources */,
+				0155CB7F2A73A0C400170661 /* HTTVPlayViewCellManager.m in Sources */,
+				0155CB6F2A73A0C400170661 /* HTAdvertBannerManager.m in Sources */,
+				0155CB9D2A73A0C400170661 /* HTSubtitleSettingViewManager.m in Sources */,
+				0155CB7D2A73A0C400170661 /* HTHistoryAdCell.m in Sources */,
+				0155CB812A73A0C400170661 /* HTMoviePlayViewManager.m in Sources */,
+				0155CB522A73A0C300170661 /* HTSearchAssociationVC.m in Sources */,
+				0155CB8F2A73A0C400170661 /* HTSubtitleObject.m in Sources */,
+				0155CB8C2A73A0C400170661 /* HTEpisodesMainViewManager.m in Sources */,
+				0155CB632A73A0C400170661 /* HTHomeHorizontalManager.m in Sources */,
+				0155CB872A73A0C400170661 /* HTHistoryViewManager.m in Sources */,
+				0155CB902A73A0C400170661 /* HTEpisodesViewCell.m in Sources */,
+				0155CB8B2A73A0C400170661 /* HTPlayer.m in Sources */,
+				0155CB5F2A73A0C300170661 /* HTHorizontalItemManager.m in Sources */,
+				0155CB992A73A0C400170661 /* HTPlayBottomBarManager.m in Sources */,
+				0155CB7C2A73A0C400170661 /* HTHomeNavgationBar.m in Sources */,
+				0155CB5C2A73A0C300170661 /* HTHistoryViewController.m in Sources */,
+				0155CB5E2A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.m in Sources */,
+				0155CB972A73A0C400170661 /* HTEpisodesMainView.m in Sources */,
+				0155CB512A73A0C300170661 /* HTSearchResultViewManager.m in Sources */,
+				0155CB6D2A73A0C400170661 /* HTHomeWaterfallCell.m in Sources */,
+				0155CB8D2A73A0C400170661 /* HTChangeEpisodesView.m in Sources */,
+				0155CB4D2A73A0C300170661 /* HTTVDetailCastsModel.m in Sources */,
+				0155CB472A73A0C300170661 /* HTHomeDisplayTypeModel.m in Sources */,
+				0155CB822A73A0C400170661 /* HTHomeNineItemManager.m in Sources */,
+				0155CB3F2A73A0C300170661 /* HTHomeFlexModel.m in Sources */,
+				0155CB942A73A0C400170661 /* HTSubtitleMainView.m in Sources */,
+				0155CB6E2A73A0C400170661 /* HTStarLevelView.m in Sources */,
+				0155CB662A73A0C400170661 /* HTTVSeasonView.m in Sources */,
+				0155CB3E2A73A0C300170661 /* HTSearchMovieTvModel.m in Sources */,
+				0155CB982A73A0C400170661 /* HTChangeSubtitleView.m in Sources */,
+				0155CA462A73A0A800170661 /* ViewController.m in Sources */,
+				0155CB5D2A73A0C300170661 /* HTSearchViewBuriedManager.m in Sources */,
+				0155CB382A73A0C300170661 /* HTGuideView.m in Sources */,
+				0155CB4F2A73A0C300170661 /* HTMoivePlayViewController.m in Sources */,
+				0155CB6C2A73A0C400170661 /* HTBannerCollectionCellManager.m in Sources */,
+				0155CB8E2A73A0C400170661 /* HTPlayBottomBar.m in Sources */,
+				0155CB8A2A73A0C400170661 /* HTSettingCell.m in Sources */,
+				0155CB432A73A0C300170661 /* HTTVDetailEpsModel.m in Sources */,
+				0155CB882A73A0C400170661 /* HTSearchHistoryVC.m in Sources */,
+				0155CB4C2A73A0C300170661 /* HTMovieDetailModel.m in Sources */,
+				0155CB502A73A0C300170661 /* HTHistoryBuriedManager.m in Sources */,
+				0155CB782A73A0C400170661 /* HTAdvertBannerView.m in Sources */,
+				0155CB3A2A73A0C300170661 /* HTWaterMovieTvModel.m in Sources */,
+				0155CB5B2A73A0C300170661 /* HTSpecialViewController.m in Sources */,
+				0155CB352A73A0C300170661 /* HTFileLoadReceipt.m in Sources */,
+				0155CB4B2A73A0C300170661 /* HTSubtitlesModel.m in Sources */,
+				0155CB9B2A73A0C400170661 /* HTSubtitleLanguageView.m in Sources */,
+				0155CA402A73A0A800170661 /* AppDelegate.m in Sources */,
+				0155CB712A73A0C400170661 /* HTHomeHorizontalCell.m in Sources */,
+				0155CB7E2A73A0C400170661 /* HTAssociationCellManager.m in Sources */,
+				0155CB962A73A0C400170661 /* HTSubtitleManager.m in Sources */,
+				0155CB922A73A0C400170661 /* HTChangeSubtitleViewManager.m in Sources */,
+				0155CB582A73A0C300170661 /* HTAssociationViewManager.m in Sources */,
+				0155CB392A73A0C300170661 /* HTHomePointManager.m in Sources */,
+				0155CB572A73A0C300170661 /* HTHomeBuriedManager.m in Sources */,
+				0155CB482A73A0C300170661 /* HTHomeTrendingModel.m in Sources */,
+				0155CB892A73A0C400170661 /* HTSubtitleLanguageViewManager.m in Sources */,
+				0155CB672A73A0C400170661 /* HTHomeFooterReuseableManager.m in Sources */,
+				0155CB362A73A0C300170661 /* HTFileLoader.m in Sources */,
+				0155CB9C2A73A0C400170661 /* HTPlayerViewModel.m in Sources */,
+				0155CB6B2A73A0C400170661 /* HTHistoryCellManager.m in Sources */,
+				0155CB592A73A0C300170661 /* HTSearchResultVC.m in Sources */,
+				0155CB7B2A73A0C400170661 /* HTSearchAssociationCell.m in Sources */,
+				0155CB802A73A0C400170661 /* HTCollectionWaterFlowLayout.m in Sources */,
+				0155CB402A73A0C300170661 /* HTHomeTrendingM20Model.m in Sources */,
+				0155CB702A73A0C400170661 /* HTSearchHistoryHotCell.m in Sources */,
+				0155CA512A73A0AA00170661 /* main.m in Sources */,
+				0155CB442A73A0C300170661 /* HTHomeBannerModel.m in Sources */,
+				0155CB642A73A0C400170661 /* HTSearchHistoryKeywordCell.m in Sources */,
+				0155CB732A73A0C400170661 /* HTAdvertisementView.m in Sources */,
+				0155CB422A73A0C300170661 /* HTHomeDefaultModel.m in Sources */,
+				0155CB552A73A0C300170661 /* HTHomeViewController.m in Sources */,
+				0155CA432A73A0A800170661 /* SceneDelegate.m in Sources */,
+				0155CB412A73A0C300170661 /* HTSpecialModel.m in Sources */,
+				0155CB832A73A0C400170661 /* HTHomeHeaderReusableView.m in Sources */,
+				0155CB562A73A0C300170661 /* HTHomeViewManager.m in Sources */,
+				0155CB3C2A73A0C300170661 /* HTSearchResultModel.m in Sources */,
+				0155CB492A73A0C300170661 /* HTTVDetailModel.m in Sources */,
+				0155CB862A73A0C400170661 /* HTHomeViewModel.m in Sources */,
+				0155CB772A73A0C400170661 /* HTHomeAdsCell.m in Sources */,
+				0155CB692A73A0C400170661 /* HTHorizontalItemCell.m in Sources */,
+				0155CB952A73A0C400170661 /* HTSubtitleView.m in Sources */,
+				0155CB532A73A0C300170661 /* HTSearchViewController.m in Sources */,
+				0155CB6A2A73A0C400170661 /* HTBannerCollectionViewCell.m in Sources */,
+				0155CB452A73A0C300170661 /* HTHomeModel.m in Sources */,
+				0155CB4E2A73A0C300170661 /* HTMoviePlayViewModel.m in Sources */,
+				0155CB3B2A73A0C300170661 /* HTHomeCompositeModel.m in Sources */,
+				0155CB652A73A0C400170661 /* HTPlayerHistoryView.m in Sources */,
+				0155CB4A2A73A0C300170661 /* HTTVDetailSeasonModel.m in Sources */,
+				0155CB792A73A0C400170661 /* HTHomeFooterReusableView.m in Sources */,
+				0155CB912A73A0C400170661 /* HTLanguageCell.m in Sources */,
+				0155CB742A73A0C400170661 /* HTSearchHistoryHeaderReusableView.m in Sources */,
+				0155CB752A73A0C400170661 /* HTHistoryViewCell.m in Sources */,
+				0155CB612A73A0C300170661 /* HTPlayerHistoryViewManager.m in Sources */,
+				0155CB682A73A0C400170661 /* HTTVEpsViewCellManager.m in Sources */,
+				0155CB3D2A73A0C300170661 /* HTDBHistoryModel.m in Sources */,
+				0155CB7A2A73A0C400170661 /* HTAdvertisementManager.m in Sources */,
+				0155CB462A73A0C300170661 /* HTKaiguanModel.m in Sources */,
+				0155CB852A73A0C400170661 /* HTTVPlayEpsViewCell.m in Sources */,
+				0155CB372A73A0C300170661 /* HTGuideViewManager.m in Sources */,
+				0155CB722A73A0C400170661 /* HTHomeNineItemsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0155CA472A73A0A800170661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0155CA482A73A0A800170661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0155CA4C2A73A0AA00170661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0155CA4D2A73A0AA00170661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0155CA522A73A0AA00170661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0155CA532A73A0AA00170661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0155CA552A73A0AA00170661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773DCC64C98AB0E51C17274B /* Pods-HTHomeModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HTHomeModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.HTHomeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0155CA562A73A0AA00170661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEA79C816EAF48B047BDF54 /* Pods-HTHomeModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HTHomeModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.HTHomeModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0155CA362A73A0A800170661 /* Build configuration list for PBXProject "HTHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0155CA522A73A0AA00170661 /* Debug */,
+				0155CA532A73A0AA00170661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0155CA542A73A0AA00170661 /* Build configuration list for PBXNativeTarget "HTHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0155CA552A73A0AA00170661 /* Debug */,
+				0155CA562A73A0AA00170661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0155CA332A73A0A800170661 /* Project object */;
+}
