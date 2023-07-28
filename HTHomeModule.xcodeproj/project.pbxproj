@@ -408,10 +408,11 @@
 		0155CA572A73A0C200170661 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0155CB092A73A0C300170661 /* Player */,
+				0155CA902A73A0C200170661 /* Home */,
 				0155CA582A73A0C200170661 /* HTFileLoader */,
 				0155CA5F2A73A0C200170661 /* Other */,
 				0155CA662A73A0C200170661 /* Model */,
-				0155CA8F2A73A0C200170661 /* ViewController */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -489,63 +490,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0155CA8F2A73A0C200170661 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0155CA902A73A0C200170661 /* Home */,
-				0155CB092A73A0C300170661 /* Player */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		0155CA902A73A0C200170661 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				0155CB022A73A0C300170661 /* HTAssociationViewManager.h */,
-				0155CAA12A73A0C300170661 /* HTAssociationViewManager.m */,
-				0155CAA72A73A0C300170661 /* HTHistoryBuriedManager.h */,
-				0155CA942A73A0C300170661 /* HTHistoryBuriedManager.m */,
-				0155CA952A73A0C300170661 /* HTHistoryViewController.h */,
-				0155CAA62A73A0C300170661 /* HTHistoryViewController.m */,
-				0155CAA02A73A0C300170661 /* HTHistoryViewManager.h */,
-				0155CB032A73A0C300170661 /* HTHistoryViewManager.m */,
-				0155CB052A73A0C300170661 /* HTHomeBuriedManager.h */,
-				0155CA9E2A73A0C300170661 /* HTHomeBuriedManager.m */,
-				0155CAAC2A73A0C300170661 /* HTHomeViewController.h */,
-				0155CA9C2A73A0C300170661 /* HTHomeViewController.m */,
-				0155CAAB2A73A0C300170661 /* HTHomeViewManager.h */,
-				0155CA9D2A73A0C300170661 /* HTHomeViewManager.m */,
-				0155CA992A73A0C300170661 /* HTHomeViewModel.h */,
-				0155CB002A73A0C300170661 /* HTHomeViewModel.m */,
-				0155CAA92A73A0C300170661 /* HTMoivePlayViewController.h */,
-				0155CA922A73A0C200170661 /* HTMoivePlayViewController.m */,
-				0155CB062A73A0C300170661 /* HTMoviePlayerViewManager.h */,
-				0155CAAA2A73A0C300170661 /* HTMoviePlayViewModel.h */,
-				0155CA912A73A0C200170661 /* HTMoviePlayViewModel.m */,
-				0155CB012A73A0C300170661 /* HTSearchAssociationVC.h */,
-				0155CA982A73A0C300170661 /* HTSearchAssociationVC.m */,
-				0155CAFF2A73A0C300170661 /* HTSearchHistoryManager.h */,
-				0155CA9B2A73A0C300170661 /* HTSearchHistoryManager.m */,
-				0155CA9F2A73A0C300170661 /* HTSearchHistoryVC.h */,
-				0155CB042A73A0C300170661 /* HTSearchHistoryVC.m */,
-				0155CB082A73A0C300170661 /* HTSearchResultVC.h */,
-				0155CAA22A73A0C300170661 /* HTSearchResultVC.m */,
-				0155CAA42A73A0C300170661 /* HTSearchResultViewManager.h */,
-				0155CA972A73A0C300170661 /* HTSearchResultViewManager.m */,
-				0155CA932A73A0C300170661 /* HTSearchViewBuriedManager.h */,
-				0155CAA82A73A0C300170661 /* HTSearchViewBuriedManager.m */,
-				0155CAFE2A73A0C300170661 /* HTSearchViewController.h */,
-				0155CA9A2A73A0C300170661 /* HTSearchViewController.m */,
-				0155CA962A73A0C300170661 /* HTSpecialViewController.h */,
-				0155CAA52A73A0C300170661 /* HTSpecialViewController.m */,
-				0155CB072A73A0C300170661 /* HTSpecialViewModel.h */,
-				0155CAA32A73A0C300170661 /* HTSpecialViewModel.m */,
-				0155CAAD2A73A0C300170661 /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		0155CAAD2A73A0C300170661 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				0155CAF92A73A0C300170661 /* HTAdvertBannerManager.h */,
@@ -558,6 +503,8 @@
 				0155CAD82A73A0C300170661 /* HTAdvertisementView.m */,
 				0155CAC62A73A0C300170661 /* HTAssociationCellManager.h */,
 				0155CAEE2A73A0C300170661 /* HTAssociationCellManager.m */,
+				0155CB022A73A0C300170661 /* HTAssociationViewManager.h */,
+				0155CAA12A73A0C300170661 /* HTAssociationViewManager.m */,
 				0155CAEA2A73A0C300170661 /* HTBannerCollectionCellManager.h */,
 				0155CACA2A73A0C300170661 /* HTBannerCollectionCellManager.m */,
 				0155CAF32A73A0C300170661 /* HTBannerCollectionViewCell.h */,
@@ -566,12 +513,20 @@
 				0155CAF42A73A0C300170661 /* HTCollectionWaterFlowLayout.m */,
 				0155CAC72A73A0C300170661 /* HTHistoryAdCell.h */,
 				0155CAED2A73A0C300170661 /* HTHistoryAdCell.m */,
+				0155CAA72A73A0C300170661 /* HTHistoryBuriedManager.h */,
+				0155CA942A73A0C300170661 /* HTHistoryBuriedManager.m */,
 				0155CAF02A73A0C300170661 /* HTHistoryCellManager.h */,
 				0155CAC42A73A0C300170661 /* HTHistoryCellManager.m */,
 				0155CAB32A73A0C300170661 /* HTHistoryViewCell.h */,
 				0155CADD2A73A0C300170661 /* HTHistoryViewCell.m */,
+				0155CA952A73A0C300170661 /* HTHistoryViewController.h */,
+				0155CAA62A73A0C300170661 /* HTHistoryViewController.m */,
+				0155CAA02A73A0C300170661 /* HTHistoryViewManager.h */,
+				0155CB032A73A0C300170661 /* HTHistoryViewManager.m */,
 				0155CABD2A73A0C300170661 /* HTHomeAdsCell.h */,
 				0155CAE42A73A0C300170661 /* HTHomeAdsCell.m */,
+				0155CB052A73A0C300170661 /* HTHomeBuriedManager.h */,
+				0155CA9E2A73A0C300170661 /* HTHomeBuriedManager.m */,
 				0155CACB2A73A0C300170661 /* HTHomeFooterReusableView.h */,
 				0155CAE82A73A0C300170661 /* HTHomeFooterReusableView.m */,
 				0155CAE32A73A0C300170661 /* HTHomeFooterReuseableManager.h */,
@@ -588,6 +543,12 @@
 				0155CAF72A73A0C300170661 /* HTHomeNineItemManager.m */,
 				0155CAB72A73A0C300170661 /* HTHomeNineItemsCell.h */,
 				0155CAD72A73A0C300170661 /* HTHomeNineItemsCell.m */,
+				0155CAAC2A73A0C300170661 /* HTHomeViewController.h */,
+				0155CA9C2A73A0C300170661 /* HTHomeViewController.m */,
+				0155CAAB2A73A0C300170661 /* HTHomeViewManager.h */,
+				0155CA9D2A73A0C300170661 /* HTHomeViewManager.m */,
+				0155CA992A73A0C300170661 /* HTHomeViewModel.h */,
+				0155CB002A73A0C300170661 /* HTHomeViewModel.m */,
 				0155CAFC2A73A0C300170661 /* HTHomeWaterfallCell.h */,
 				0155CACD2A73A0C300170661 /* HTHomeWaterfallCell.m */,
 				0155CAE12A73A0C300170661 /* HTHomeWaterfallHeaderReusableView.h */,
@@ -600,22 +561,45 @@
 				0155CAAF2A73A0C300170661 /* HTHorizontalItemManager.m */,
 				0155CAD02A73A0C300170661 /* HTMoivePlayViewCell.h */,
 				0155CAFB2A73A0C300170661 /* HTMoivePlayViewCell.m */,
+				0155CAA92A73A0C300170661 /* HTMoivePlayViewController.h */,
+				0155CA922A73A0C200170661 /* HTMoivePlayViewController.m */,
+				0155CB062A73A0C300170661 /* HTMoviePlayerViewManager.h */,
 				0155CAD42A73A0C300170661 /* HTMoviePlayViewManager.h */,
 				0155CAF62A73A0C300170661 /* HTMoviePlayViewManager.m */,
+				0155CAAA2A73A0C300170661 /* HTMoviePlayViewModel.h */,
+				0155CA912A73A0C200170661 /* HTMoviePlayViewModel.m */,
 				0155CAE52A73A0C300170661 /* HTPlayerHistoryView.h */,
 				0155CABC2A73A0C300170661 /* HTPlayerHistoryView.m */,
 				0155CADC2A73A0C300170661 /* HTPlayerHistoryViewManager.h */,
 				0155CAB22A73A0C300170661 /* HTPlayerHistoryViewManager.m */,
 				0155CAC92A73A0C300170661 /* HTSearchAssociationCell.h */,
 				0155CAEB2A73A0C300170661 /* HTSearchAssociationCell.m */,
+				0155CB012A73A0C300170661 /* HTSearchAssociationVC.h */,
+				0155CA982A73A0C300170661 /* HTSearchAssociationVC.m */,
 				0155CAB42A73A0C300170661 /* HTSearchHistoryHeaderReusableView.h */,
 				0155CADB2A73A0C300170661 /* HTSearchHistoryHeaderReusableView.m */,
 				0155CAF52A73A0C300170661 /* HTSearchHistoryHotCell.h */,
 				0155CAD52A73A0C300170661 /* HTSearchHistoryHotCell.m */,
 				0155CAE72A73A0C300170661 /* HTSearchHistoryKeywordCell.h */,
 				0155CABA2A73A0C300170661 /* HTSearchHistoryKeywordCell.m */,
+				0155CAFF2A73A0C300170661 /* HTSearchHistoryManager.h */,
+				0155CA9B2A73A0C300170661 /* HTSearchHistoryManager.m */,
+				0155CA9F2A73A0C300170661 /* HTSearchHistoryVC.h */,
+				0155CB042A73A0C300170661 /* HTSearchHistoryVC.m */,
+				0155CB082A73A0C300170661 /* HTSearchResultVC.h */,
+				0155CAA22A73A0C300170661 /* HTSearchResultVC.m */,
+				0155CAA42A73A0C300170661 /* HTSearchResultViewManager.h */,
+				0155CA972A73A0C300170661 /* HTSearchResultViewManager.m */,
 				0155CAD92A73A0C300170661 /* HTSearchView.h */,
 				0155CAB52A73A0C300170661 /* HTSearchView.m */,
+				0155CA932A73A0C300170661 /* HTSearchViewBuriedManager.h */,
+				0155CAA82A73A0C300170661 /* HTSearchViewBuriedManager.m */,
+				0155CAFE2A73A0C300170661 /* HTSearchViewController.h */,
+				0155CA9A2A73A0C300170661 /* HTSearchViewController.m */,
+				0155CA962A73A0C300170661 /* HTSpecialViewController.h */,
+				0155CAA52A73A0C300170661 /* HTSpecialViewController.m */,
+				0155CB072A73A0C300170661 /* HTSpecialViewModel.h */,
+				0155CAA32A73A0C300170661 /* HTSpecialViewModel.m */,
 				0155CAFA2A73A0C300170661 /* HTStarLevelView.h */,
 				0155CACF2A73A0C300170661 /* HTStarLevelView.m */,
 				0155CAF12A73A0C300170661 /* HTTVEpsViewCellManager.h */,
@@ -629,7 +613,7 @@
 				0155CAE22A73A0C300170661 /* HTTVSeasonView.h */,
 				0155CABE2A73A0C300170661 /* HTTVSeasonView.m */,
 			);
-			path = View;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		0155CB092A73A0C300170661 /* Player */ = {
